@@ -1,0 +1,48 @@
+{
+  "name": "anomious-message-with-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@material-tailwind/react": "^2.1.10",
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@react-email/components": "^0.0.32",
+    "@react-email/render": "^1.0.4",
+    "@tabler/icons-react": "^3.29.0",
+    "ai": "^4.1.5",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-autoplay": "^8.5.2",
+    "embla-carousel-react": "^8.5.2",
+    "framer-motion": "^12.0.5",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.474.0",
+    "mongoose": "^8.9.5",
+    "next": "^15.1.6",
+    "next-auth": "^4.24.11",
+    "openai": "^4.80.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-toastify": "^11.0.3",
+    "resend": "^4.1.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
